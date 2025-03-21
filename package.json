@@ -1,0 +1,81 @@
+{
+    "name": "majmuat-al-muslim",
+    "displayName": "مجموعة المسلم",
+    "description": "مجموعة من الأذكار والحديث والقرآن وأوقات الصلاة",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "islamic-prayer-reminders.start",
+                "title": "Start Islamic Reminders"
+            },
+            {
+                "command": "islamic-prayer-reminders.stop",
+                "title": "Stop Islamic Reminders"
+            },
+            {
+                "command": "islamic-prayer-reminders.configure",
+                "title": "Configure Reminder Intervals"
+            }
+        ],
+        "configuration": {
+            "title": "Islamic Prayer Reminders",
+            "properties": {
+                "islamicPrayerReminders.hadithInterval": {
+                    "type": "object",
+                    "default": {
+                        "min": 3600000,
+                        "max": 10800000
+                    },
+                    "description": "Interval range for Hadith notifications (in milliseconds)"
+                },
+                "islamicPrayerReminders.dhikrInterval": {
+                    "type": "object",
+                    "default": {
+                        "min": 7200000,
+                        "max": 14400000
+                    },
+                    "description": "Interval range for Dhikr notifications (in milliseconds)"
+                },
+                "islamicPrayerReminders.quranInterval": {
+                    "type": "object",
+                    "default": {
+                        "min": 10800000,
+                        "max": 18000000
+                    },
+                    "description": "Interval range for Quranic verse notifications (in milliseconds)"
+                },
+                "islamicPrayerReminders.prayerNotificationTime": {
+                    "type": "number",
+                    "default": 15,
+                    "description": "Minutes before prayer time to show notification"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "node ./test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.80.0",
+        "@types/node": "^16.11.7",
+        "eslint": "^8.47.0",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "moment": "^2.29.4"
+    }
+}
